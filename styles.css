@@ -1,0 +1,76 @@
+/* Styles.css */
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: dimgrey;
+        font-size: 20px;
+        color: white;
+        margin-top: auto;
+    }
+
+    nav {
+        font-size: 34px;
+        font-weight: lighter;
+        display: flex;
+        gap: 25px;
+        
+    }
+
+    .introtext {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+        font-size: 45px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+    a:link {
+        text-decoration: none;
+        color: crimson;
+      }
+      
+      a:visited {
+        text-decoration: none;
+        color: crimson;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        color: crimson;
+      }
+      
+      a:active {
+        text-decoration: none;
+        color: crimson;
+      }
+      
+
