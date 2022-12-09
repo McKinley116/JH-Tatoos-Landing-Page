@@ -9,7 +9,7 @@
     header {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-content: space-between;
         align-items: center;
         color: white;
@@ -20,13 +20,14 @@
         flex-wrap: nowrap;
     }
 
-    img {
+     img {
         display: flex;
-        margin-left: -75px;
+        justify-content: flex-start;
+        margin-left: -20px;
         padding: 0px;
         max-width: 50%;
-        border-radius: 8px;
-    } 
+        border-radius: 8px; 
+    }  
 
     footer {
         display: flex;
@@ -45,9 +46,12 @@
         font-size: 34px;
         font-weight: lighter;
         display: flex;
+        justify-content: flex-end;
         flex: 1;
         gap: 45px;
         color: white;
+        padding: 10px;
+        margin: 10px;
     }
 
     .introtext {
