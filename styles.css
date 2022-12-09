@@ -1,108 +1,128 @@
 /* Styles.css */
 
-    body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+    
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-content: space-between;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            background-color: black;
+            flex-wrap: nowrap;
+        }
+    
+        /* #JHlogo{
+            display: flex;
+            justify-content: flex-start;
+            margin-left: -20px;
+            padding: 0px;
+            max-width: 25%;
+            max-height: auto;
+            border-radius: 8px; 
+        }   */
 
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-content: space-between;
-        align-items: center;
-        color: white;
-        font-size: 30px;
-        background-color: black;
-        min-height: 100%;
-        min-width: 100%;
-        flex-wrap: nowrap;
-    }
+        img {
+            max-height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+            vertical-align: bottom;
+          }          
 
-     img {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: -20px;
-        padding: 0px;
-        max-width: 50%;
-        border-radius: 8px; 
-    }  
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+          }
+          
+          li {
+            height: 40vh;
+            flex-grow: 1;
+          }
+    
+          li:last-child {
+            flex-grow: 10;
+          }
 
-    .box2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        align-content: space-around;
-        padding: 0;
-        margin: 0;
-        height: 15px;
-        width: auto;
-    }
-
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: center;
-        align-items: center;
-        background-color: black;
-        font-size: 20px;
-        color: white;
-        margin-top: auto;
-        flex: 1;
-    }
-
-    nav {
-        font-size: 34px;
-        font-weight: lighter;
-        display: flex;
-        justify-content: flex-end;
-        flex: 1;
-        gap: 45px;
-        color: white;
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .introtext {
-        display: flex;
-        justify-content: center;
-        padding: 10%;
-        margin: 10px;
-        font-size: 45px;
-    }
-
-    .content-body {
-        display: flex;
-    }
-
-    .content-body2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        align-content: space-around;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    h2 {
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-        padding: 25%;
-    }
-    a:link, :visited, :active {
-        text-decoration: none;
-        color: white;
-      }
-      
-    a:hover {
-        text-decoration: none;
-        color: crimson;
-      }
-
+        .box2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            align-content: space-around;
+            padding: 0;
+            margin: 0;
+            height: 15px;
+            width: auto;
+        }
+    
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+            background-color: black;
+            font-size: 20px;
+            color: white;
+            margin-top: auto;
+            flex: 1;
+        }
+    
+        nav {
+            font-size: 34px;
+            font-weight: lighter;
+            display: flex;
+            justify-content: flex-end;
+            flex: 1;
+            gap: 45px;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+    
+        .introtext {
+            display: flex;
+            justify-content: center;
+            padding: 10%;
+            margin: 10px;
+            font-size: 45px;
+        }
+    
+        .content-body {
+            display: flex;
+        }
+    
+        .content-body2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-around;
+        }
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        h2 {
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            padding: 25%;
+        }
+        a:link, :visited, :active {
+            text-decoration: none;
+            color: white;
+          }
+          
+        a:hover {
+            text-decoration: none;
+            color: crimson;
+          }
