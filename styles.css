@@ -4,6 +4,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            background-image:image(images/JJbg.jpg)
         }
     
         header {
@@ -39,7 +40,8 @@
             display: flex;
             flex-wrap: wrap;
             list-style-type: none;
-            background-color: black;
+            background-color: transparent;
+            border: 8px solid black;
           }
           
           li {
@@ -91,9 +93,11 @@
         .introtext {
             display: flex;
             justify-content: center;
-            padding: 10%;
+            padding: 25%;
             margin: 10px;
             font-size: 65px;
+            border: 8px solid black;
+            background-color: transparent;
         }
     
         .content-body {
@@ -110,9 +114,9 @@
     
         .artwork, .recent, .contactme {
             font-size: 65px;
-            display: flex;
-            justify-content: center;
-            padding: 5px;
+            text-align: center;
+            padding: 0px;
+            
         }
         a:link, :visited, :active {
             text-decoration: none;
