@@ -21,23 +21,25 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: space-between;
     align-items: center;
+    align-content: space-between;
     color: white;
     font-size: 30px;
     background-color: black;
-    opacity: 50%;
+    opacity: 70%;
     flex-wrap: nowrap;
+    height: 250px;
 }
 
  .logo{
     display: flex;
-    justify-content: flex-start;
+    padding: 50px;
     margin-left: -20px;
     padding: 0px;
-    max-width: 25%;
-    max-height: auto;
+    max-height: 250px;
+    max-width: 250px;
     border-radius: 8px; 
     flex: 1;
 }   
@@ -95,7 +97,7 @@ nav {
     font-weight: lighter;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex: 1;
     gap: 45px;
