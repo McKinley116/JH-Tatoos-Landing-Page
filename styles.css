@@ -1,5 +1,12 @@
 /* Styles.css */
 
+@font-face {
+    font-family: 'airstreamregular';
+    src: url(./assets/fonts/Airstream-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
 body {
     display: flex;
     flex-direction: column;
@@ -80,20 +87,23 @@ ul {
 }
 
 footer {
+    font-family: 'airstreamregular';
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
     align-items: center;
     background-color: black;
-    font-size: 20px;
+    font-size: 45px;
     color: white;
     margin-top: auto;
     flex: 1;
+    opacity: 70%;
 }
 
 nav {
-    font-size: 34px;
+    font-family: 'airstreamregular';
+    font-size: 50px;
     font-weight: lighter;
     display: flex;
     flex-direction: row;
@@ -107,11 +117,18 @@ nav {
 }
 
 .introtext {
+    font-family: 'airstreamregular';
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 25%;
-    margin: 10px;
-    font-size: 100px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex: 1;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    margin: 0px;
+    font-size: 125px;
     color: white;
 }
 
@@ -128,10 +145,13 @@ nav {
 }
 
 .artwork, .recent {
+    font-family: 'airstreamregular';
     font-size: 65px;
     text-align: center;
     padding: 0px;
     color: white;
+    background-color: #101010;
+    opacity: 70%;
     
 }
 a:link, :visited, :active {
